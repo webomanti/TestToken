@@ -1,0 +1,9 @@
+truffle migrate
+truffle migrate --reset
+truffle console
+
+TestToken.deployed().then(function(i) { token=i; })
+token.totalSupply().then(function(s){ totalSupply=s; })
+totalSupply.toNumber()
+
+truffle tests
