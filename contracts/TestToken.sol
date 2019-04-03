@@ -49,3 +49,6 @@ contract TestToken {
         return true;
 	}
 }
+
+// TODO: ethereum.org/oken
+// BURN funkcio
